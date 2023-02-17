@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "rimraf": "^4.1.2"
+  },
+  "bin": {
+    "create-boilerplate": "./generate-app.js"
+  }
+}
